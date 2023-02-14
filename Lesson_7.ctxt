@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Lesson_7
+comment0.text=\n\ Lesson\ 7\ activites.\n\ \n\ @author\ Jake\ Sweger\n\ @version\ 1.0\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ main()\ reads\ Fahrenheit\ temperatures\ and\ \n\ displays\ their\ Celsius\ and\ Kelvin\ equivalents.\n
+numComments=2
