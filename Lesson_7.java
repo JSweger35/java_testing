@@ -11,14 +11,20 @@ public class Lesson_7 {
      * displays their Celsius and Kelvin equivalents.
      */
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
         int x = 0;
+        int y = 0;
+        System.out.print("Enter a bottom number:");
+        String lowerNum = input.next();
+        System.out.print(lowerNum);
+        
         do {
-            System.out.println(x);
+            System.out.println("x: "+x);
             x++;
         } while(x < 10);
-        int y = 0;
+        
         while (y < 10){
-            System.out.println(y);
+            System.out.println("y: "+y);
             y++; 
         }
     }
