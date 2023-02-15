@@ -12,20 +12,25 @@ public class Lesson_7 {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int x = 0;
-        int y = 0;
-        System.out.print("Enter a bottom number:");
+        //int x = 0;
+        //int y = 0;
+        System.out.print("Enter a number:");
         String lowerNum = input.next();
-        System.out.print(lowerNum);
-        
+        System.out.print("Enter a higher number:");
+        String higherNum = input.next();
+        System.out.print("Lower Number: "+ lowerNum +"\n");
+        System.out.print("Higher Number: "+ higherNum +"\n");
+        int lowNum = Integer.parseInt(lowerNum);
+        int highNum = Integer.parseInt(higherNum);
+        int x = lowNum;
         do {
             System.out.println("x: "+x);
             x++;
         } while(x < 10);
         
-        while (y < 10){
+        /*while (y < 10){
             System.out.println("y: "+y);
             y++; 
-        }
+        }*/
     }
 }
